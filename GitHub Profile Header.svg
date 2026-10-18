@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="64" viewBox="0 0 320 64" role="img" aria-label="Hi, I'm Jawaher ✦">
+  <defs>
+    <clipPath id="typing">
+      <rect x="0" y="0" width="0" height="64">
+        <!-- reveals the name letter by letter -->
+        <animate attributeName="width" dur="1.5s" begin="0.2s" fill="freeze" calcMode="discrete"
+          values="0;36;46;57;64;74;85;116;124;144;164;193;213;234;254;275"
+          keyTimes="0;0.067;0.133;0.2;0.267;0.333;0.4;0.467;0.533;0.6;0.667;0.733;0.8;0.867;0.933;1"/>
+      </rect>
+    </clipPath>
+  </defs>
+
+  <text x="10" y="44" clip-path="url(#typing)"
+        font-family="Inter, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif"
+        font-size="34" font-weight="700" fill="#AC87C5"
+        textLength="257" lengthAdjust="spacingAndGlyphs">Hi, I'm Jawaher</text>
+
+  <g transform="translate(291 32)">
+    <g opacity="0">
+      <animate attributeName="opacity" values="0;1" begin="1.75s" dur="0.25s" fill="freeze"/>
+      <animateTransform attributeName="transform" type="scale" values="0.3;1.2;1" keyTimes="0;0.6;1"
+        begin="1.75s" dur="0.4s" fill="freeze"/>
+      <text x="0" y="15" text-anchor="middle"
+            font-family="'Segoe UI Symbol', 'Apple Symbols', 'DejaVu Sans', sans-serif"
+            font-size="44" fill="#F5C542">✦</text>
+    </g>
+  </g>
+</svg>
